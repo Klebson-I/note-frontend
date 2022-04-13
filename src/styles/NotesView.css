@@ -1,0 +1,31 @@
+.notesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.header__heading{
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: 'Cairo', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notesContainer__container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.createNewButton{
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 19px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+}

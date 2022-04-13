@@ -1,0 +1,22 @@
+.textInfoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textInfoDiv h2{
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 20px;
+}
+.textInfoDiv__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px black;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.textInfoDiv__section h3{
+    font-family: 'Cairo', sans-serif;
+}

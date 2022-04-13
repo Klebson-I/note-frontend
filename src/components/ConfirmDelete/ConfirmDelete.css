@@ -1,0 +1,30 @@
+.confirmDeleteDiv{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 100;
+    border: 2px solid black;
+    min-height: 150px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 2px 1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 5px 5px 2px 1px rgba(66, 68, 90, 1);
+    box-shadow: 5px 5px 2px 1px rgba(66, 68, 90, 1);
+    align-items: center;
+}
+.confirmDeleteDiv h3{
+    font-size: 23px;
+    font-family: 'Cairo', sans-serif;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+}
+.buttons button {
+    width: 40%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 19px;
+}
