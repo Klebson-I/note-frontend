@@ -1,3 +1,6 @@
+Frontend for notes application written in React + Typescript. Backend is here https://github.com/Klebson-I/note-backend . Backend should be run before frontend on different port than 3000. To run this app use script start.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
